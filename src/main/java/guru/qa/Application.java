@@ -2,13 +2,12 @@ package guru.qa;
 
 import guru.qa.domain.Car;
 import guru.qa.domain.Track;
-import guru.qa.service.GuiInterface;
 
 public class Application {
 
-    private final GuiInterface userInterface;
+    private final guru.qa.service.GuiInterfaceSelect userInterface;
 
-    public Application(GuiInterface userInterface) {
+    public Application(guru.qa.service.GuiInterfaceSelect userInterface) {
         this.userInterface = userInterface;
     }
 
