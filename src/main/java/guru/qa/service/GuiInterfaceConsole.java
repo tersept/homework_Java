@@ -37,7 +37,7 @@ public class GuiInterfaceConsole {
             System.out.println("Pit-stop needed in " + car.maxLapsForTrack());
 
         } else {
-            System.out.println("Pit-stop not needed ");
+            System.out.println("Pit-stop not needed");
         }
     }
 }
