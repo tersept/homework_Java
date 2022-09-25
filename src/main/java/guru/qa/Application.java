@@ -5,9 +5,9 @@ import guru.qa.domain.Track;
 
 public class Application {
 
-    private final guru.qa.service.GuiInterfaceSelect userInterface;
+    private final guru.qa.service.GuiInterfaceConsole userInterface;
 
-    public Application(guru.qa.service.GuiInterfaceSelect userInterface) {
+    public Application(guru.qa.service.GuiInterfaceConsole userInterface) {
         this.userInterface = userInterface;
     }
 

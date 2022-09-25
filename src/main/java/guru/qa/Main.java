@@ -5,7 +5,7 @@ import guru.qa.repo.TrackStore;
 
 public class Main {
     public static void main(String[] args) {
-        new guru.qa.Application(new guru.qa.service.GuiInterfaceSelect(
+        new guru.qa.Application(new guru.qa.service.GuiInterfaceConsole(
                 new CarStore(),
                 new TrackStore()
         )).run();
