@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class CarStore {
 
-    private Map<String, Car> store = Map.of(
+    private Map<String, Car> store = (Map<String, Car>) Map.of(
         "Ferrari", new Ferrari(),
         "Mercedes", new Mercedes()
     );

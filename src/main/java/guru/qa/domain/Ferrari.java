@@ -1,6 +1,6 @@
 package guru.qa.domain;
 
-public class Ferrari extends Car {
+public class Ferrari extends guru.qa.domain.Car {
 
     @Override
     public double getFuelEconomy() {

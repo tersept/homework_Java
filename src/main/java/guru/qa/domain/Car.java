@@ -12,7 +12,7 @@ public abstract class Car {
         return FUEL_CAPACITY;
     }
 
-    public boolean isPitstopNeeded(Track track) {
+    public boolean isPitstopNeeded(guru.qa.domain.Track track) {
         maxLapsForTrack(track);
         return maxLapsForTrack < track.laps();
     }
@@ -21,7 +21,7 @@ public abstract class Car {
         return this.maxLapsForTrack;
     }
 
-    private void maxLapsForTrack(Track track) {
+    private void maxLapsForTrack(guru.qa.domain.Track track) {
         int lapDistance = track.lapDistance();
         double fuelEconomy = getFuelEconomy();
         int fuelCapacity = fuelCapacity();
