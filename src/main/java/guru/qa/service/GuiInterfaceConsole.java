@@ -27,7 +27,7 @@ public class GuiInterfaceConsole {
 
     public Track chooseTrackInGui() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите трек:");
+        System.out.println("Введите трек: ");
         String desiredTrack = sc.nextLine();
         return trackStore.lookup(desiredTrack);
     }
